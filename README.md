@@ -1,6 +1,6 @@
-# BACA for polkadot hackathon
+# BACA for Demo
 This is the aggregated repo of three parts in BACA:
-- parachain setup and chain related api, as in "parachain-api" directory
+- subtrate based develop and chain related api, as in "parachain-api" directory
 - backend service for the website, as in "backend" directory
 - Assets and scripts to power the frontend, as in "frontend" directory.
 
@@ -11,7 +11,7 @@ BACA is in active development, feel free to follow us on twitter: https://twitte
 
 The features we have implemented so far during this hackathon:
 
-- [Canvas](https://github.com/paritytech/canvas) based parachain deployment in aws
+- A simple Subtrate development chain deployment in aws
 - Token reward distribution API
 - User regsitration and login
 - Content browsing with sections and ranking
@@ -19,12 +19,12 @@ The features we have implemented so far during this hackathon:
 - "Staking to Vote" demo
 
 Features we are acitvely working on:
-
+- Change entirely to IC framework instead of subtrate
 - Creator access control and invitation program
 - Decentralized "Staking to Vote", in smart contracts or pallet to make it transparent
 - Decentralized voting reward distribution in smart contracts or pallet
 
-## Parachain setup and chain related API
+## Chain related API
 
 We deployed a [Canvas](https://github.com/paritytech/canvas) based parachain as our development chain on: ws://ec2-35-77-14-64.ap-northeast-1.compute.amazonaws.com:9944
 
